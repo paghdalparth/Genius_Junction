@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="_ZRiE8etUEe6gRNpG4dev2Q">
+      <COMMENT>Created by: Kanchan</COMMENT>
+      <CREATION-TIME>2024-03-26T15:07:00.084+05:30</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ReqIF Studio (https://reqif.academy)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+      <TITLE>UserStory</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_ZRiE8-tUEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:07:00.084+05:30" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_ZRiE9OtUEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:07:00.084+05:30" LONG-NAME="Requirement Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_ZRiE9etUEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:07:00.084+05:30" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_ZRiE8-tUEe6gRNpG4dev2Q</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_3TvCYOtWEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:24:35.397+05:30" LONG-NAME="Owner">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_ZRiE8-tUEe6gRNpG4dev2Q</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_AyNvAOtXEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:25:39.030+05:30" LONG-NAME="ID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_ZRiE8-tUEe6gRNpG4dev2Q</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_ZRiE9utUEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:07:00.084+05:30" LONG-NAME="Specification Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_ZRiE9-tUEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:07:00.084+05:30" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_ZRiE8-tUEe6gRNpG4dev2Q</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_ZRiE-OtUEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:14:18.936+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Registration and Profile Management">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_uSdc4etbEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:59:23.395+05:30" LONG-NAME="Registration and Profile Management">
+          <TYPE/>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_vsumAetcEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:06:43.255+05:30"/>
+        <SPEC-OBJECT IDENTIFIER="_b5G1EetdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:11:39.111+05:30"/>
+        <SPEC-OBJECT IDENTIFIER="_xJqBkOtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:13:58.030+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Genius Junction">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_0xo04OtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:37:06.764+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to register on the platform so that I can create and manage my profile.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req1.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_9YD4IOtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:16:10.530+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Course Management">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_-HWAAOtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:30:37.193+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Collaboration and Support:">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_-uDasOtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:15:34.133+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Management and Analytics">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_E18mAOteEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:29:43.465+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to create courses with titles, descriptions, and relevant tags.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req2.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_He8BgOteEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:17:40.811+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to upload resources and content for my courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req2.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_JyCFgOteEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:18:06.337+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to create assignment submission forums within my courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req2.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_LIx2AOteEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:18:20.833+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to edit the content and details of my courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req2.4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_wM7BoOtfEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:28:56.726+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to set course visibility (public/private).">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req2.5">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_xNtwQOtfEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:29:08.612+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to set course pricing (paid/free).">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req2.6">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_HUidcOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:43:07.634+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req3.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to collaborate with other educators on course development.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_H_4ggOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:31:30.229+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to access help and support provided by the admin.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req3.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_QQEOAOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:31:51.172+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to view analytics and reports for my courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req4.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Q7KZcOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:31:55.439+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to restrict access to certain students for specific courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req4.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_SFZX8OtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:43:46.215+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to draft certificates for students who complete my courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req4.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_TUj5wOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:32:10.709+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As an instructor, I want to delete courses when necessary.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req4.4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_UK3PoOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:34:39.304+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Course Enrollment">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req5">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Wp0lYOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:32:31.461+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to register on the platform so that I can create and manage my profile.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req1.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_mLrwwOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:34:17.779+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Progress Tracking and Interaction">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req6">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_r1aZYOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:35:13.676+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Certificates and Support">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req7">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_vgiAQOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:35:47.718+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to download certificates for completed courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req7.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_w_pCkOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:35:30.649+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to access help and support provided by the admin.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req7.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_1q_-cOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:36:27.760+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to track my progress within enrolled courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req6.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_22zDMOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:36:52.187+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE=" As a student, I want to post and delete comments in course discussion forums.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req6.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_50s-wOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:37:16.683+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to submit assignments for my courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req6.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_BO9J0OthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:37:32.888+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to provide feedback on courses I've completed.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req6.4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_EWRgEOthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:38:16.434+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to browse courses by keywords and categories.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req5.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_FqHGgOthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:44:24.464+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE=" As a student, I want to view a list of my enrolled courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req5.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_GdymMOthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:38:26.935+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to enroll in and drop courses as needed">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req5.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_HKO1cOthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:38:53.978+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a student, I want to make secure payments for courses.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9etUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req5.4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AyNvAOtXEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_ZRiE9OtUEe6gRNpG4dev2Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION DESC="REQ1" IDENTIFIER="_ZRiE-utUEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:07:00.084+05:30" LONG-NAME="Specification Document">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirements Document">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZRiE9-tUEe6gRNpG4dev2Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_ZRiE9utUEe6gRNpG4dev2Q</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_xKK-8OtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:13:58.030+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_xJqBkOtdEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_ZRiE_OtUEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T15:07:00.084+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_ZRiE-OtUEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_0yGH4OtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:14:23.572+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_0xo04OtdEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_WqLxwOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:32:31.461+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_Wp0lYOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_9YhyMOtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:15:21.576+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_9YD4IOtdEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_E2VnkOteEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:16:05.071+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_E18mAOteEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_HfQxoOteEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:16:33.102+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_He8BgOteEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_JycVMOteEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:16:48.653+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_JyCFgOteEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_LJFYAOteEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:16:56.762+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_LIx2AOteEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_wNissOtfEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:28:15.533+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_wM7BoOtfEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_xOGx0OtfEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:28:21.846+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_xNtwQOtfEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_-Hxd0OtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:15:29.263+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_-HWAAOtdEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_HU2mgOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:30:50.826+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_HUidcOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_IASwMOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:30:55.000+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_H_4ggOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_-uYx4OtdEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:15:34.133+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_-uDasOtdEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_QQZlMOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:31:51.172+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_QQEOAOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_Q7iM4OtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:31:55.439+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_Q7KZcOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_SFxLYOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:32:02.420+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_SFZX8OtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_TVML4OtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:32:10.709+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_TUj5wOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_ULOcAOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:32:15.765+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_UK3PoOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_EWm3QOthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:37:40.262+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_EWRgEOthEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_GeUKoOthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:37:54.430+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_GdymMOthEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_FqmOsOthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:37:49.418+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_FqHGgOthEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_HKmB0OthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:37:58.997+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_HKO1cOthEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_mMCWEOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:34:17.779+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_mLrwwOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_1rZAAOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:36:02.222+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_1q_-cOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_23MEwOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:36:09.409+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_22zDMOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_51ELIOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:36:29.414+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_50s-wOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_BPc5EOthEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:37:15.000+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_BO9J0OthEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_r1za8OtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:34:54.644+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_r1aZYOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_vg3XcOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:35:12.685+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_vgiAQOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_xAD5UOtgEe6gRNpG4dev2Q" LAST-CHANGE="2024-03-26T16:35:30.649+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_w_pCkOtgEe6gRNpG4dev2Q</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>Description</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+        <configuration:presentationConfigurations>
+          <configuration:ProrPresentationConfigurations/>
+        </configuration:presentationConfigurations>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>
